@@ -118,3 +118,20 @@ Gihub repository: https://github.com/gurnitha/2022-django4-marketplace-jfu
         modified:   app/marketplace/migrations/0001_initial.py
         modified:   app/marketplace/models.py
         modified:   config/settings.py
+
+
+### 5. USERS APP
+----------------
+
+
+#### 5.1 Create Users app
+
+        modified:   README.md
+        new file:   app/users/__init__.py
+        new file:   app/users/admin.py
+        new file:   app/users/apps.py
+        new file:   app/users/migrations/__init__.py
+        new file:   app/users/models.py
+        new file:   app/users/tests.py
+        new file:   app/users/views.py
+        modified:   config/settings.py
