@@ -4,6 +4,7 @@
 from django.db import models
 
 # Locals
+from app.accounts.models import Users
 
 # Create your models here.
 
@@ -49,7 +50,7 @@ class Subcategories(models.Model):
 # NAMA MODEL/TABEL: Stores
 class Stores(models.Model):
 
-	# id_user_store		= models.ForeignKey(Users, on_delete=models.CASCADE)
+	id_user_store		= models.ForeignKey(Users, on_delete=models.CASCADE)
 	name_store			= models.CharField(max_length=100)
 	slug				= models.SlugField(max_length=225, unique=True)
 	logo_store			= models.ImageField(upload_to='products/stores/%Y/%m/%d', blank=True, null=True)

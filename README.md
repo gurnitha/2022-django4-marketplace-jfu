@@ -149,3 +149,14 @@ Gihub repository: https://github.com/gurnitha/2022-django4-marketplace-jfu
         renamed:    app/users/views.py -> app/accounts/views.py
         deleted:    app/users/models.py
         modified:   config/settings.py
+
+
+#### 5.3 Create Users model
+
+        modified:   README.md
+        modified:   app/accounts/admin.py
+        new file:   app/accounts/migrations/0001_initial.py
+        modified:   app/accounts/models.py
+        new file:   app/accounts/signals.py
+        new file:   app/marketplace/migrations/0002_alter_categories_icon_category_and_more.py
+        modified:   app/marketplace/models.py
