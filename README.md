@@ -97,3 +97,15 @@ Gihub repository: https://github.com/gurnitha/2022-django4-marketplace-jfu
         This password is too common.
         Bypass password validation and create user anyway? [y/N]: y
         Superuser created successfully.
+
+
+### 4. DJANGO MODELS
+--------------------
+
+
+#### 4.1 Create Categoriers model
+
+        modified:   README.md
+        modified:   app/marketplace/admin.py
+        new file:   app/marketplace/migrations/0001_initial.py
+        modified:   app/marketplace/models.py
