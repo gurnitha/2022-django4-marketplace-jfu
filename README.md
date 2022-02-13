@@ -223,3 +223,12 @@ Gihub repository: https://github.com/gurnitha/2022-django4-marketplace-jfu
         new file:   app/likes/tests.py
         new file:   app/likes/views.py
         modified:   config/settings.py
+
+
+#### 7.2 Create models: Disputes and Messages
+
+        modified:   README.md
+        modified:   app/likes/admin.py
+        new file:   app/likes/migrations/0001_initial.py
+        new file:   app/likes/migrations/0002_messages.py
+        modified:   app/likes/models.py
