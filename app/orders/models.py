@@ -36,3 +36,23 @@ class Orders(models.Model):
 
 	def __str__(self):
 		return self.status_order
+
+
+# NAMA MODEL/TABEL: Sales
+class Sales(models.Model):
+
+	id_order_sale		= models.ForeignKey(Orders, on_delete=models.CASCADE)
+	unit_price_sale		= models.DecimalField(max_digits=10, decimal_places=2)
+	commision_sale		= models.FloatField(default='0')
+	payment_method_sale	= models.CharField(max_length=100)
+	id_payment_sale		= models.CharField(max_length=100)
+	status_sale			= models.TextField()
+	date_created_sale	= models.DateTimeField(auto_now_add=True)
+	date_updated_sale	= models.DateTimeField(auto_now=True)
+
+	class Meta:
+		ordering = ('commision_sale',)
+		verbose_name_plural = "Sales"
+
+	def __str__(self):
+		return self.commision_sale
