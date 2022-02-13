@@ -81,3 +81,19 @@ Gihub repository: https://github.com/gurnitha/2022-django4-marketplace-jfu
 
         modified:   README.md
         modified:   config/settings.py
+
+
+#### 3.2 Create superuser
+
+        > (defatul-venv) λ python manage.py migrate
+        > (defatul-venv) λ python manage.py createsuperuser
+        
+        Username (leave blank to use 'hp'): admin
+        Email address: email@gmail.com
+        Password:
+        Password (again):
+        The password is too similar to the username.
+        This password is too short. It must contain at least 8 characters.
+        This password is too common.
+        Bypass password validation and create user anyway? [y/N]: y
+        Superuser created successfully.
