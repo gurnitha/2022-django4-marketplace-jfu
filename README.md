@@ -43,3 +43,41 @@ Gihub repository: https://github.com/gurnitha/2022-django4-marketplace-jfu
         new file:   app/marketplace/tests.py
         new file:   app/marketplace/views.py
         modified:   config/settings.py
+
+
+### 3. DATABASE
+---------------
+
+
+#### 3.1 Create and connect with Postgres database
+
+        > python -m pip install psycopg2
+        > python -m pip install django-environ
+        (defatul-venv) λ touch config\.env
+
+        <!-- in .env file -->
+        SECRET_KEY=keysmdfdfdfkd;lfkdlfkds;lfkds;lfkd;l
+        DATABASE_NAME=db_name
+        DATABASE_USER=postgres
+        DATABASE_PASSWORD=xxxxxxx 
+
+        <!-- in settings.py file -->
+        import environ
+        env = environ.Env()
+        environ.Env.read_env()
+
+        SECRET_KEY = env('SECRET_KEY');
+
+        DATABASES = {
+	        'default': {
+	        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+	        'NAME': env('DATABASE_NAME'),
+	        'USERNAME': env('DATABASE_USER'),
+	        'PASSWORD': env('DATABASE_PASSWORD'),
+	        'HOST': 'localhost',
+	        'PORT': '5432'
+	        }
+        }
+
+        modified:   README.md
+        modified:   config/settings.py
