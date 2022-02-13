@@ -135,3 +135,17 @@ Gihub repository: https://github.com/gurnitha/2022-django4-marketplace-jfu
         new file:   app/users/tests.py
         new file:   app/users/views.py
         modified:   config/settings.py
+
+
+#### 5.2 Rename Users app to Accounts app
+
+        modified:   README.md
+        renamed:    app/users/__init__.py -> app/accounts/__init__.py
+        renamed:    app/users/admin.py -> app/accounts/admin.py
+        renamed:    app/users/apps.py -> app/accounts/apps.py
+        renamed:    app/users/migrations/__init__.py -> app/accounts/migrations/__init__.py
+        new file:   app/accounts/models.py
+        renamed:    app/users/tests.py -> app/accounts/tests.py
+        renamed:    app/users/views.py -> app/accounts/views.py
+        deleted:    app/users/models.py
+        modified:   config/settings.py

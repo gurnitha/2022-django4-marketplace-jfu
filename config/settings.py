@@ -38,7 +38,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
 
     # Locals/new apps
-    'app.users.apps.UsersConfig',
+    'app.accounts.apps.AccountsConfig',
     'app.marketplace.apps.MarketplaceConfig',
 
     # Default apps
