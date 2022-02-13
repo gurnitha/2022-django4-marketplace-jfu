@@ -109,3 +109,12 @@ Gihub repository: https://github.com/gurnitha/2022-django4-marketplace-jfu
         modified:   app/marketplace/admin.py
         new file:   app/marketplace/migrations/0001_initial.py
         modified:   app/marketplace/models.py
+
+
+#### 4.2 Create models: Subcategories, Stores and Products
+
+        modified:   README.md
+        modified:   app/marketplace/admin.py
+        modified:   app/marketplace/migrations/0001_initial.py
+        modified:   app/marketplace/models.py
+        modified:   config/settings.py
