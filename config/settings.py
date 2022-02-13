@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # Locals/new apps
     'app.accounts.apps.AccountsConfig',
     'app.marketplace.apps.MarketplaceConfig',
+    'app.orders.apps.OrdersConfig',
 
     # Third party apps
     'django_countries',

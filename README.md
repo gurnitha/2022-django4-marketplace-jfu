@@ -187,3 +187,12 @@ Gihub repository: https://github.com/gurnitha/2022-django4-marketplace-jfu
         new file:   app/orders/models.py
         new file:   app/orders/tests.py
         new file:   app/orders/views.py
+
+
+#### 6.2 Create Orders model
+
+        modified:   README.md
+        modified:   app/orders/admin.py
+        new file:   app/orders/migrations/0001_initial.py
+        modified:   app/orders/models.py
+        modified:   config/settings.py
