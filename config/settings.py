@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'app.accounts.apps.AccountsConfig',
     'app.marketplace.apps.MarketplaceConfig',
     'app.orders.apps.OrdersConfig',
+    'app.likes.apps.LikesConfig',
 
     # Third party apps
     'django_countries',

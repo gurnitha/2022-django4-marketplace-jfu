@@ -199,3 +199,27 @@ Gihub repository: https://github.com/gurnitha/2022-django4-marketplace-jfu
 
 
 #### 6.3 Create Sales model
+
+        modified:   README.md
+        modified:   app/marketplace/admin.py
+        modified:   app/marketplace/models.py
+        modified:   app/orders/admin.py
+        new file:   app/orders/migrations/0002_sales.py
+        modified:   app/orders/models.py
+
+
+### 7. LIKES APP
+----------------
+
+
+#### 7.1 Create a new app 'app/likes'
+
+        modified:   README.md
+        new file:   app/likes/__init__.py
+        new file:   app/likes/admin.py
+        new file:   app/likes/apps.py
+        new file:   app/likes/migrations/__init__.py
+        new file:   app/likes/models.py
+        new file:   app/likes/tests.py
+        new file:   app/likes/views.py
+        modified:   config/settings.py
