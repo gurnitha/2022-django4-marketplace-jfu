@@ -9,6 +9,7 @@ from django_countries.fields import CountryField
 # NAMA MODEL/TABEL: Profile
 class Users(models.Model):
 
+	rol_user 			= models.TextField(blank=True, null=True)
 	picture_user		= models.ImageField(
 					    	null=True, 
 					    	blank=True, 
@@ -22,12 +23,12 @@ class Users(models.Model):
 					        max_length=200, 
 					        blank=True, 
 					        null=True)
-	# password_user		= by default django added it
+	password_user		= models.TextField(blank=True, null=True)
 	email_user			= models.EmailField(
-					    	max_length=500, 
+					    	max_length=100, 
 					    	blank=True, 
 					    	null=True)
-	country_user		= CountryField()
+	country_user 		= CountryField()
 	city_user			= models.CharField(max_length=100)
 	phone_user			= models.CharField(max_length=20)
 	address_user		= models.TextField()

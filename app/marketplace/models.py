@@ -62,7 +62,7 @@ class Stores(models.Model):
 	city_store			= models.CharField(max_length=50)
 	address_store		= models.TextField()
 	phone_store			= models.CharField(max_length=50)
-	socialnetwork_store	= models.CharField(max_length=100)
+	socialnetwork_store	= models.TextField()
 	products_store		= models.TextField()
 	date_created_store	= models.DateTimeField(auto_now_add=True)
 	date_updated_store	= models.DateTimeField(auto_now=True)

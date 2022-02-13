@@ -160,3 +160,14 @@ Gihub repository: https://github.com/gurnitha/2022-django4-marketplace-jfu
         new file:   app/accounts/signals.py
         new file:   app/marketplace/migrations/0002_alter_categories_icon_category_and_more.py
         modified:   app/marketplace/models.py
+
+
+#### 5.4 Create Users model (modified)
+
+        new file:   app/accounts/migrations/0002_alter_users_options.py
+        new file:   app/accounts/migrations/0003_users_password_user_users_rol_user.py
+        new file:   app/accounts/migrations/0004_alter_users_email_user.py
+        modified:   app/accounts/models.py
+        new file:   app/marketplace/migrations/0003_alter_stores_socialnetwork_store.py
+        modified:   app/marketplace/models.py
+        modified:   config/settings.py

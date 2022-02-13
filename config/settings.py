@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     'app.accounts.apps.AccountsConfig',
     'app.marketplace.apps.MarketplaceConfig',
 
+    # Third party apps
+    'django_countries',
+
     # Default apps
     'django.contrib.admin',
     'django.contrib.auth',
