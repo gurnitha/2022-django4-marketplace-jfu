@@ -171,3 +171,19 @@ Gihub repository: https://github.com/gurnitha/2022-django4-marketplace-jfu
         new file:   app/marketplace/migrations/0003_alter_stores_socialnetwork_store.py
         modified:   app/marketplace/models.py
         modified:   config/settings.py
+
+
+### 6. ORDERS APP
+-----------------
+
+
+#### 6.1 Create a new app 'app/orders'
+
+        modified:   README.md
+        new file:   app/orders/__init__.py
+        new file:   app/orders/admin.py
+        new file:   app/orders/apps.py
+        new file:   app/orders/migrations/__init__.py
+        new file:   app/orders/models.py
+        new file:   app/orders/tests.py
+        new file:   app/orders/views.py
